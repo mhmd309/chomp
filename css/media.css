@@ -1,0 +1,61 @@
+/* Smart Phones And Tablets */
+@media (max-width: 768px) {
+  .header .info h1,
+  .home .info h2,
+  .order-section .info h1,
+  .online .info h2,
+  .call .info h2,
+  .support .info h2,
+  .header-menu .info h1,
+  .header-company .info h1,
+  .home-comany .info h2,
+  .header-faq .info h1 {
+    font-size: 30px
+  }
+  .header .info button,
+  .home .info button,
+  .order-section .info p,
+  .online .info button,
+  .call .info button,
+  .support .info button,
+  .home-comany .info button {
+    width: fit-content
+  }
+  .img img {
+    max-width: 250px
+  }
+  .works .info h1 {
+    font-size: 40px
+  }
+  .order-section .box-order h3 {
+    margin: 15px 0 5px 15px;
+    font-size: 15px
+  }
+  .order-section .box-order span {
+    right: auto
+  }
+  .order-section .box-order p {
+    font-size: 15px;
+    line-height: 1.5
+  }
+  .header-menu .info h1,
+  .header-company .info h1,
+  .header-faq .info h1 {
+    width: 340px
+  }
+  .menu .info-text .tabs li {
+    margin: 5px
+  }
+}
+
+/* Small Screen */
+@media (min-width: 769px) and (max-width: 991px) {
+}
+
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,268 @@
+.header-menu {
+    background-color: #f5fbfc;
+    padding: 80px 0
+}
+
+.header-menu .info {
+    background: url('../img/home.png') no-repeat 50% 50%;
+    background-size: contain
+}
+
+.header-menu .info h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 700px
+}
+
+.header-menu .info h1 span {
+    color: var(--main-color)
+}
+
+/* Start Menu Order */
+
+.menu {
+    padding: 80px 0;
+    background-color: #fff
+}
+
+.menu .info-text .tabs {
+    margin: 0;
+    padding: 0
+}
+
+.menu .info-text .tabs li {
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 10px 25px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    color: #000
+}
+
+.menu .info-text .tabs li:hover {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color)
+}
+
+.menu .info-text .tabs li.active {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #fff
+}
+
+.menu .order-section {
+    padding-top: 50px !important;
+    padding-bottom: 0 !important;
+    background-color: #fff
+}
+
+.menu .order-section>div:not(.tapOne) {
+    display: none
+}
+
+/* Start Menu Order */
+
+/* Start Header Company */
+
+.header-company {
+    background-color: #f5fbfc;
+    padding: 80px 0
+}
+
+.header-company .info {
+    background: url('../img/home.png') no-repeat 50% 50%;
+    background-size: contain
+}
+
+.header-company .info h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 700px
+}
+
+.header-company .info h1 span {
+    color: var(--main-color)
+}
+
+/* End Header Company */
+
+/* Start Home Company */
+
+.home-comany {
+    padding: 80px 0
+}
+
+.home-comany .info {
+    margin-bottom: 15px;
+    padding-top: 165px;
+    background: url('../img/home.png') no-repeat 50% 50%;
+    background-size: contain
+}
+
+.home-comany .info h2 {
+    color: var(--main-color);
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0 0 15px
+}
+
+.home-comany .info p {
+    font-size: 19px;
+    margin: 10px 0;
+    color: #546285
+}
+
+.home-comany .info button {
+    background-color: var(--main-color);
+    border: 4px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    width: 40%;
+    padding: 10px 25px;
+    margin: 30px 0 25px;
+    display: inline-block;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .2s .2s ease-in-out
+}
+
+.home-comany .info button:hover {
+    outline: 4px solid var(--main-color)
+}
+
+.home-comany .img img {
+    max-width: 100%
+}
+
+/* End Home Company */
+
+/* Start Calculate */
+
+.calculate {
+    background: url('../img/GroupPhoto.jpg') fixed;
+    background-size: cover;
+    padding: 80px 0;
+    color: #fff;
+    position: relative
+}
+
+.calculate .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+.calculate .info {
+    position: relative;
+    z-index: 1
+}
+
+.calculate .info .calc {
+    margin-bottom: 15px
+}
+
+.calculate .info .calc h3 {
+    margin: 0 auto 25px;
+    font-weight: bold;
+    font-size: 80px;
+    border-bottom: 2px solid var(--main-color);
+    width: 45%
+}
+
+.calculate .info .calc p {
+    font-size: 19px;
+    margin: 0;
+    color: #fff
+}
+
+/* End Calculate */
+
+/* Start Header FAQ */
+
+.header-faq {
+    background-color: #f5fbfc;
+    padding: 80px 0
+}
+
+.header-faq .info {
+    background: url('../img/home.png') no-repeat 50% 50%;
+    background-size: contain
+}
+
+.header-faq .info h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 700px
+}
+
+.header-faq .info h1 span {
+    color: var(--main-color)
+}
+
+/* End Header FAQ */
+
+/* Start Home FAQ */
+
+.home-faq {
+    padding: 80px 0;
+    background-color: #fff
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: none;
+}
+
+.accordion-item {
+    margin-bottom: 25px
+}
+
+.accordion-header {
+    border-bottom: 1px solid #eee
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 0;
+}
+
+.accordion-button {
+    background: transparent;
+    color: var(--main-color);
+    font-size: 25px;
+    border: 0;
+    padding: 20px 0;
+    font-weight: bold
+}
+
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    color: var(--main-color);
+    font-size: 25px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: 0
+}
+
+.accordion-body {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    border: 0;
+    padding: 10px 0
+}
+
+.accordion-collapse {
+    border: 0
+}
+
+/* End Home FAQ */
